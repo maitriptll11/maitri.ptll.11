@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A creative portfolio showcasing design, illustration, and experiments.">
+  <title>Your Name — Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Go to homepage">YOUR NAME<span>®</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow"><span class="dot"></span> DESIGNER IN THE MAKING · INDIA</p>
+      <h1>Ideas, made<br><em>visible.</em></h1>
+      <div class="hero-bottom">
+        <p>A collection of my ideas, experiments, and creative projects.</p>
+        <a class="round-link" href="#work" aria-label="Explore my work">↓</a>
+      </div>
+      <div class="hero-note">PORTFOLIO / 2026—ONGOING</div>
+    </section>
+
+    <section class="work-section" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED PROJECTS</p><h2>Things I've made<span>✳</span></h2></div>
+        <p class="section-intro">Sketches, visual stories, and ideas<br>that are still becoming.</p>
+      </div>
+      <div class="filters" aria-label="Filter projects">
+        <button class="filter active" data-filter="All">All work <span id="all-count">00</span></button>
+        <button class="filter" data-filter="Illustration">Illustration</button>
+        <button class="filter" data-filter="Design">Design</button>
+        <button class="filter" data-filter="Experiments">Experiments</button>
+      </div>
+      <div class="project-grid" id="project-grid"></div>
+      <p class="empty-note" id="empty-note" hidden>No projects in this category yet. Add one in <code>projects.js</code>.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-stamp">A LITTLE<br>ABOUT ME <span>↘</span></div>
+      <div class="about-copy">
+        <p class="eyebrow">HELLO, I'M YOUR NAME</p>
+        <h2>Curious by nature.<br><em>Creative by choice.</em></h2>
+        <p>I'm an aspiring designer who loves observing everyday life, trying new ideas, and turning little sparks of inspiration into visual work. This portfolio is a growing record of what I'm learning and making.</p>
+        <p class="about-hint">Replace this paragraph with your own story, interests, and the kind of design you want to explore.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">HAVE A PROJECT OR AN IDEA?</p>
+      <h2>Let's make<br><em>something good.</em></h2>
+      <a class="email-link" href="mailto:hello@example.com">hello@example.com ↗</a>
+      <p class="contact-small">Replace this with your preferred email or social link.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="wordmark" href="#home">YOUR NAME<span>®</span></a>
+    <p>Made with curiosity · <span id="year"></span></p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <dialog id="project-dialog">
+    <button class="dialog-close" id="dialog-close" aria-label="Close project details">×</button>
+    <img id="dialog-image" src="" alt="">
+    <div class="dialog-copy">
+      <p class="eyebrow" id="dialog-category"></p>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+    </div>
+  </dialog>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
