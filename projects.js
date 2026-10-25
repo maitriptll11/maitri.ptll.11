@@ -32,8 +32,8 @@ const PROJECTS = [
     description: "A visual experiment with organic forms, colour, and composition. Tell visitors what inspired this project."
   },
   {
-    title: "Stories on paper",
-    category: "Illustration",
+    title: "deging mess",
+    category: "design",
     year: "2026",
     image: "image: "IMG-20261025-WA0003.jpg",",
     description: "A collection of visual ideas developed through sketching. Replace this with your project details."
