@@ -35,7 +35,7 @@ const PROJECTS = [
     title: "Stories on paper",
     category: "Illustration",
     year: "2026",
-    image: "images/project-4.svg",
+    image: "image: "IMG-20261025-WA0003.jpg",",
     description: "A collection of visual ideas developed through sketching. Replace this with your project details."
   }
 ];
