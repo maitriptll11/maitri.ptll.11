@@ -14,7 +14,7 @@ const PROJECTS = [
     title: "A world in colour",
     category: "Illustration",
     year: "2026",
-    image: "images/project-1.svg",
+    image: "https://github.com/maitriptll11/maitri.ptll.11/blob/main/IMG-20261025-WA0003.jpghttps://github.com/maitriptll11/maitri.ptll.11/blob/main/IMG-20261025-WA0003.jpg",
     description: "A playful colour study exploring shape, contrast, and mood. Replace this description with the story behind your work."
   },
   {
