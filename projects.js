@@ -36,6 +36,6 @@ const PROJECTS = [
     category: "design",
     year: "2026",
     image: "image: "IMG-20261025-WA0003.jpg",",
-    description: "A collection of visual ideas developed through sketching. Replace this with your project details."
+    description: "A playful exploration of design ideas, experiments, and creative concepts.""
   }
 ];
